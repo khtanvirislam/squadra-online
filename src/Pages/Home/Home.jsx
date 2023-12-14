@@ -12,9 +12,9 @@ import {
 
 export const Home = () => {
   return (
-    <div className="max-h-full sm:py-5 md:py-10 lg:py-20">
+    <div className="max-h-full">
       <Hero></Hero>
-      <div className="sm:py-5 md:py-10 lg:py-20">
+      <div className="sm:py-5 md:py-10">
         <Stats></Stats>
         <Business></Business>
         <Billing></Billing>

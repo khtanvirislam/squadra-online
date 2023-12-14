@@ -1,10 +1,9 @@
-import React from "react";
-import { HeroText } from "./HeroText";
 import { HeroImg } from "./HeroImg";
+import { HeroText } from "./HeroText";
 
 export const Hero = () => {
   return (
-    <div className="flex">
+    <div className="flex flex-col md:flex-row">
       <HeroText></HeroText>
       <HeroImg></HeroImg>
     </div>
