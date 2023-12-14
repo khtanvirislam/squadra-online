@@ -5,9 +5,13 @@ import { Logo } from "../Logo/Logo";
 export const NavBar = () => {
   return (
     <div>
-      <nav className="flex justify-between items-center px-24 py-6">
+      <nav
+        className="
+        flex flex-col gap-2 md:flex-row
+      justify-between items-center py-6"
+      >
         <Logo></Logo>
-        <ul className="flex gap-10">
+        <ul className="flex gap-5 lg:gap-10">
           <li className="">
             <NavLink
               to="/"
