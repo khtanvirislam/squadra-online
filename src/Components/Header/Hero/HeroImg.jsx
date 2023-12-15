@@ -1,10 +1,10 @@
 import React from "react";
-// import { aiImg } from "../../../images/robo.png";
+import img1 from "../../../images/robo.png";
 export const HeroImg = () => {
   return (
-    <div>
+    <div className="flex-1">
       <div>
-        <img src="" alt="" />
+        <img className="rounded-md mt-10 " src={img1} alt="" />
       </div>
     </div>
   );
