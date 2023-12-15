@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
+import { TestimonialsText } from "./TestimonialsText";
+import { TestimonialCards } from "./TestimonialCards";
 
 export const Testimonials = () => {
   return (
-    <div>Testimonials</div>
-  )
-}
+    <div>
+      <TestimonialsText></TestimonialsText>
+      <TestimonialCards></TestimonialCards>
+    </div>
+  );
+};

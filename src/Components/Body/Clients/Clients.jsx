@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export const Clients = () => {
-  return (
-    <div>Clients</div>
-  )
-}
+  return <div></div>;
+};

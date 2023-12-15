@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export const CTA = () => {
-  return (
-    <div>CTA</div>
-  )
-}
+  return <div></div>;
+};
