@@ -3,10 +3,10 @@ import { GetStarted } from "../../Body/GetStarted/GetStarted";
 
 export const HeroText = () => {
   return (
-    <div className="flex-1">
-      <div className="flex flex-1 lg:max-w-2xl lg:py-5">
+    <div className="flex-1 mt-5 md:mt-10">
+      <div className="flex flex-1 lg:max-w-2xl">
         {/* content */}
-        <div className="md:mr-5">
+        <div className="text-center md:text-start px-4 md:px-8 py-4 md:py-8">
           <h1 className="text-3xl md:text-5xl font-bold">
             Transform <br />
             <span className="text-4xl md:text-6xl  text-teal-400">
@@ -20,11 +20,11 @@ export const HeroText = () => {
         </div>
 
         {/* get started */}
-        <div className="sm:flex hidden md:mr-7 ">
+        <div className="sm:flex hidden md:mr-7 py-5">
           <GetStarted></GetStarted>
         </div>
       </div>
-      <p className="justify-center px-2 max-w-sm md:max-w-md lg:max-w-lg text-base">
+      <p className="text-start px-4 md:px-8 max-w-sm md:max-w-md lg:max-w-lg text-base">
         Our experienced team utilizes a tailored approach to pinpoint the ideal
         AI and automation solutions for your business, emphasizing enhanced
         efficiency and cost-effectiveness.

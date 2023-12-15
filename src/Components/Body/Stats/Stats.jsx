@@ -3,8 +3,8 @@ import React from "react";
 export const Stats = () => {
   return (
     <section
-      className="my-10 flex
-      justify-center "
+      className="my-20 flex
+      justify-center"
     >
       <div className="flex flex-col md:flex-row gap-5 md:gap-10 justify-center items-center md:justify-normal ">
         <div className="mt-10 md:mt-0 flex items-center gap-1  ">

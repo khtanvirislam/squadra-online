@@ -11,12 +11,8 @@ export const NavBar = () => {
   };
 
   return (
-    <div>
-      <nav
-        className="
-        flex  gap-2 
-      justify-between items-center py-6"
-      >
+    <div className="">
+      <nav className="flex gap-2 justify-between items-center py-6">
         <Logo></Logo>
         <ul className=" sm:flex hidden gap-5 lg:gap-10">
           <li className="">
@@ -60,7 +56,6 @@ export const NavBar = () => {
             </NavLink>
           </li>
         </ul>
-
         {/* small device animation */}
         <div className="sm:hidden flex flex-1 justify-end items-center ">
           <h3
@@ -70,7 +65,6 @@ export const NavBar = () => {
             {toggle ? <IoMdClose /> : <CiMenuFries />}
           </h3>
         </div>
-
         <div
           className={`${
             toggle ? "flex" : "hidden"
@@ -136,6 +130,7 @@ export const NavBar = () => {
           </ul>
         </div>
       </nav>
+      <hr className="" />
     </div>
   );
 };
