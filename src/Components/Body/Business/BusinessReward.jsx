@@ -6,7 +6,7 @@ export const BusinessReward = () => {
   return (
     <div className="max-w-[400px]">
       {/* icon 1 */}
-      <div className="flex justify-center items-center gap-5 mb-4 hover:bg-slate-900 p-4 rounded-lg">
+      <div className="flex justify-center items-center gap-5 mb-4 hover:bg-slate-700 p-4 rounded-lg">
         <div className="text-4xl">
           <span>
             <FaFastForward />
@@ -21,7 +21,7 @@ export const BusinessReward = () => {
         </div>
       </div>
       {/* icon 2 */}
-      <div className="flex justify-center items-center gap-5 mb-4 hover:bg-slate-900 p-4 rounded-lg">
+      <div className="flex justify-center items-center gap-5 mb-4 hover:bg-slate-700 p-4 rounded-lg">
         <div className="text-4xl">
           <span className="">
             <BiExitFullscreen />
@@ -36,7 +36,7 @@ export const BusinessReward = () => {
         </div>
       </div>
       {/* icon 3 */}
-      <div className="flex justify-center items-center gap-5 hover:bg-slate-900 p-4 rounded-lg">
+      <div className="flex justify-center items-center gap-5 hover:bg-slate-700 p-4 rounded-lg">
         <div className="text-4xl">
           <span>
             <FaFastForward />

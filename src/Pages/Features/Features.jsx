@@ -1,5 +1,5 @@
 import React from "react";
 
 export const Features = () => {
-  return <div>This is features</div>;
+  return <div className="min-h-screen"></div>;
 };

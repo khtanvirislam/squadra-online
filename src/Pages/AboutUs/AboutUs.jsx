@@ -1,5 +1,5 @@
 import React from "react";
 
 export const AboutUs = () => {
-  return <div>This is about us section</div>;
+  return <div className="min-h-screen"></div>;
 };

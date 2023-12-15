@@ -8,7 +8,7 @@ export const Business = () => {
     <div>
       <div
         className=" py-5 md:pt-20
-      bg-slate-800 rounded-2xl px-5 flex flex-col lg:flex-row justify-around items-center"
+      bg-slate-800 hover:bg-slate-900 rounded-2xl px-5 flex flex-col lg:flex-row justify-around items-center"
       >
         <BusinessText></BusinessText>
         <BusinessReward></BusinessReward>
