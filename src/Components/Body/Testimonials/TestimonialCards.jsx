@@ -2,8 +2,8 @@ import React from "react";
 
 export const TestimonialCards = () => {
   return (
-    <div className="mt-10 md:mt-20">
-      <div class="grid mb-8 border border-gray-200 rounded-lg shadow-sm  md:mb-12 md:grid-cols-2  bg-gray-800">
+    <div className="mt-10 md:mt-20 ">
+      <div class="grid  border border-gray-200 rounded-lg shadow-sm  md:mb-12 md:grid-cols-2  bg-gray-800">
         <figure class="flex flex-col items-center justify-center p-8 text-center  border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e ">
           <blockquote class="max-w-2xl mx-auto mb-4  lg:mb-8 text-green-300">
             <h3 class="text-lg font-semibold  text-white">

@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div className="">
       <div>
-        <footer className="footer bg-gradient-to-r from-slate-800 to-slate-950 py-10 md:py-20 text-white  ">
+        <footer className="footer pt-10 bg-gradient-to-r from-slate-800 to-slate-950 py-10 md:py-20 text-white  ">
           <aside className="text-center px-24">
             <svg
               width="50"
