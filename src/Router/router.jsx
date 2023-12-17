@@ -5,11 +5,15 @@ import { Features } from "../Pages/Features/Features";
 import { MainLayOut } from "../Layout/Mainlayout/Mainlayout";
 import { Solution } from "../Pages/Solution/Solution";
 import { Footer } from "../Components/Footer/Footer";
+import { Service } from "../Components/Body/Service/Service";
+import { ErrorPage } from "../Components/ErrorPage/ErrorPage";
 
 export const myCreatedRoute = createBrowserRouter([
   {
     path: "/",
     element: <MainLayOut></MainLayOut>,
+    errorElement: <ErrorPage></ErrorPage>,
+
     children: [
       {
         path: "/",
@@ -26,6 +30,10 @@ export const myCreatedRoute = createBrowserRouter([
       {
         path: "/solution",
         element: <Solution></Solution>,
+      },
+      {
+        path: "/service",
+        element: <Service></Service>,
       },
       {
         path: "/footer",

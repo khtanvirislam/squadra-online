@@ -1,5 +1,6 @@
 import React from "react";
 import { BusinessButton } from "../Business/BusinessButton";
+import { Link } from "react-router-dom";
 
 export const CTA = () => {
   return (

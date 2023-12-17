@@ -8,7 +8,7 @@ export const Footer = () => {
         <footer className="footer pt-10 bg-gradient-to-r from-slate-800 to-slate-950 py-10 md:py-20 text-white  ">
           <aside className="text-center px-24">
             <svg
-              width="50"
+              width="50" 
               height="50"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
